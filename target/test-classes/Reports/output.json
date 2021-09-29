@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "verifying adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-homepage;verifying-adactin-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13093967205,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is in the Adactin Homepage",
+            "match": {
+              "location": "AdactinLogin.tc00()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 395122487,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should enter Username and password",
+            "match": {
+              "location": "AdactinLogin.tc01()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115618982,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should click login button",
+            "match": {
+              "location": "AdactinLogin.tc02()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3647050522,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should check title second page and verify success",
+            "match": {
+              "location": "AdactinLogin.tc03()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin Homepage",
+    "description": "",
+    "id": "verifying-adactin-homepage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/HomePage.feature",
+    "tags": []
+  }
+]
